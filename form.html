@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Pink</title>
+	<meta name="description" content="Pink mobile app website">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header class="page-header">
+		<div class="page-header__wrap">
+			<div class="page-header__wrapper page-header__wrapper--closed">
+				<a class="page-header__logo" href="index.html">
+					<picture>
+						<source media="(min-width: 1200px)" srcset="img/logotype-white-desktop.svg">
+						<source media="(min-width: 660px)" srcset="img/logotype-white-tablet.svg">
+						<img class="page-header__logo-image" src="img/logotype-white-mobile.svg"  alt="Logotype Pink">
+					</picture>
+					
+				</a>
+			</div>
+			
+			<nav class="main-nav main-nav--closed main-nav--nojs">
+				<button class="main-nav__toggle" type="button"><span class="visually-hidden">Open menu</span></button>
+				<div class="main-nav__wrapper">
+					<ul class="main-nav__list">
+						<li class="main-nav__item">
+							<a href="index.html">Homepage</a>
+						</li>
+						<li class="main-nav__item">
+							<a href="photo.html">User&nbsp;Photos</a>
+						</li>
+						<li class="main-nav__item">
+							<a>Contest</a>
+						</li>
+						<li class="main-nav__item">
+							<a href="#">Designed&nbsp;by&nbsp;Skifff</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<section class="promo-photo">
+			<div class="promo-photo__wrapper">
+				<h1 class="promo-photo__title">Contest <br>for the most crazy trip <br>with Pink</h1>
+			</div>
+		</section>
+		<section class="form">
+			<p class="form__description">
+				Share your story and get a chance to win a valuable prize - 1000 miles to your bonus card! <span>Please fill in the form below:</span>
+			</p>
+			<form action="#" method="GET">
+				
+				<div class="form__fio-list">
+					<h3 class="visually-hidden">Enter your surname, name and patronymic</h3>
+					<p class="form__fio-item">
+						<label for="surname">Surname:</label>
+						<input id="surname" type="text" name="surname" placeholder="Enter your Surname *">
+					</p>
+					<p class="form__fio-item">
+						<label for="name">Name:</label>
+						<input id="name" type="text" name="name" placeholder="Enter your name *">
+					</p>
+					<p class="form__fio-item">
+						<label for="second-name">Middle name:</label>
+						<input id="second-name" type="text" name="second-name" placeholder="Well, your middle name too">
+					</p>
+				</div>
+				
+				<div class="form__progress">
+					<div class="form__progress-wrapper">
+						<h3 class="visually-hidden">Your achievements</h3>
+						<p class="form__progress-title">
+							Your crazy achievements in the journey
+						</p>
+						<ul class="form__progress-list">
+							<li class="form__progress-item">
+								<input id="shark" type="checkbox" name="progress" value="shark" checked>
+								<label class="form__progress-label" for="shark">Photo with a shark</label>
+							</li>
+							<li class="form__progress-item">
+								<input id="beach" type="checkbox" name="progress" value="beach">
+								<label class="form__progress-label" for="beach">Burned on the beach</label>
+							</li>
+							<li class="form__progress-item">
+								<input id="chak" type="checkbox" name="progress" value="chak" checked>
+								<label class="form__progress-label" for="chak">Saw Chuck Norris</label>
+							</li>
+							<li class="form__progress-item">
+								<input id="souvenir" type="checkbox" name="progress" value="souvenir">
+								<label class="form__progress-label" for="souvenir">Bought souvenirs</label>
+							</li>
+							<li class="form__progress-item">
+								<input id="tower" type="checkbox" name="progress" value="tower">
+								<label class="form__progress-label" for="tower">Kept the tower</label>
+							</li>
+							<li class="form__progress-item">
+								<input id="hotel" type="checkbox" name="progress" value="hotel" checked>
+								<label class="form__progress-label" for="hotel">Defeated the hotel</label>
+							</li>
+						</ul>
+					</div>
+				</div>
+				
+
+				
+				<div class="form__contacts-list">
+					<div class="form__contacts-wrapper">
+						<h3 class="visually-hidden">Your contact information</h3>
+						<p class="form__contacts-title">
+							Contact Information
+						</p>
+						<div class="form__contacts-items">
+							<p class="form__contacts-item">
+								<label class="phone" for="phone">Phone number</label>
+								<input class="form__contacts-field" id="phone" type="text" name="phone" placeholder="Number, please">
+							</p>
+							<p class="form__contacts-item">
+								<label class="email" for="email">Email address</label>
+								<input class="form__contacts-field" id="email" type="email" name="email" placeholder="Enter email *">
+							</p>
+						</div>
+						
+					</div>
+				</div>
+				
+				<div class="form__app">
+					<div class="form__app-wrapper">
+						<h3 class="visually-hidden">Your application</h3>
+						<p class="form__app-title">
+							What application did you travel with?
+						</p>
+						<p class="form__app-item">
+							<input id="ios" type="radio" name="app" value="ios" checked>
+							<label class="form__app-label" for="ios">Pink для iOS</label>
+						</p>
+						<p class="form__app-item">
+							<input id="android" type="radio" name="app" value="android">
+							<label class="form__app-label" for="android">Pink на Android</label>
+						</p>
+						<p class="form__app-item">
+							<input id="windows" type="radio" name="app" value="windows">
+							<label class="form__app-label" for="windows">Windows Phone</label>
+						</p>
+					</div>
+				</div>
+
+				<div class="form__emotions">
+					<div class="form__emotions-wrapper">
+						<h3 class="visually-hidden">Your emotions</h3>
+						<p class="form__emotions-text">
+							<label for="emotions">Describe your emotions</label>
+							<textarea name="emotions" id="emotions">You can describe it colorfully, without embarrassment in expressions</textarea>
+						</p>
+					</div>
+				</div>
+				<p class="form__button-wrapper">
+					<input class="form__button" type="submit" value="Submit Form">
+				</p>
+				<p class="form__required">
+					<span>*</span> - required fields
+				</p>
+
+			</form>
+		</section>
+	</main>
+	<footer class="footer">
+		<div class="page-footer__wrapper">
+			<a class="page-footer__logo" href="">
+				<picture>
+						<source media="(min-width: 1200px)" srcset="img/logotype-blue-desktop.svg">
+						<img class="page-footer__logo-image" src="img/logotype-blue-tablet.svg" width="147" height="40" alt="Logotype Pink in footer">
+					</picture>
+			</a>
+			<ul class="footer__social-list">
+				<li class="footer__social-item">
+					<a class="footer__social-link" href="#">
+						<span class="visually-hidden">Pink in Twitter</span>
+						<svg class="social-item__circle" width="50px" height="50px">
+						  <circle r="22" cx="25" cy="25" fill="none"  stroke-width="3"/>
+						</svg>
+						<svg class="social-item__twitter" width="18px" height="18px" viewBox="0 0 256 209" >
+						    <g>
+						        <path d="M256,25.4500259 C246.580841,29.6272672 236.458451,32.4504868 225.834156,33.7202333 C236.678503,27.2198053 245.00583,16.9269929 248.927437,4.66307685 C238.779765,10.6812633 227.539325,15.0523376 215.57599,17.408298 C205.994835,7.2006971 192.34506,0.822 177.239197,0.822 C148.232605,0.822 124.716076,24.3375931 124.716076,53.3423116 C124.716076,57.4586875 125.181462,61.4673784 126.076652,65.3112644 C82.4258385,63.1210453 43.7257252,42.211429 17.821398,10.4359288 C13.3005011,18.1929938 10.710443,27.2151234 10.710443,36.8402889 C10.710443,55.061526 19.9835254,71.1374907 34.0762135,80.5557137 C25.4660961,80.2832239 17.3681846,77.9207088 10.2862577,73.9869292 C10.2825122,74.2060448 10.2825122,74.4260967 10.2825122,74.647085 C10.2825122,100.094453 28.3867003,121.322443 52.413563,126.14673 C48.0059695,127.347184 43.3661509,127.988612 38.5755734,127.988612 C35.1914554,127.988612 31.9009766,127.659938 28.694773,127.046602 C35.3777973,147.913145 54.7742053,163.097665 77.7569918,163.52185 C59.7820257,177.607983 37.1354036,186.004604 12.5289147,186.004604 C8.28987161,186.004604 4.10888474,185.75646 0,185.271409 C23.2431033,200.173139 50.8507261,208.867532 80.5109185,208.867532 C177.116529,208.867532 229.943977,128.836982 229.943977,59.4326002 C229.943977,57.1552968 229.893412,54.8901664 229.792282,52.6381454 C240.053257,45.2331635 248.958338,35.9825545 256,25.4500259" ></path>
+						    </g>
+						</svg>
+					</a>
+					
+				</li>
+				<li class="footer__social-item">
+					<a class="footer__social-link" href="#">
+						<span class="visually-hidden">Pink in Facebook</span>
+						<svg class="social-item__circle" width="50px" height="50px">
+						  <circle r="22" cx="25" cy="25" fill="none" stroke-width="3"/>
+						</svg>
+						<p class="social-item__facebook">
+							f
+						</p>
+					</a>
+				</li>
+				<li class="footer__social-item">
+					<a class="footer__social-link" href="#">
+						<span class="visually-hidden">Pink in Youtube</span>
+						<svg class="social-item__circle" width="50px" height="50px">
+						  <circle r="22" cx="25" cy="25" fill="none" stroke-width="3"/>
+						</svg>
+						<svg class="social-item__youtube" width="18px" height="18px" >
+						    <polygon points="0,0 15,6 0,12"/>
+						</svg>
+					</a>
+				</li>
+			</ul>
+			<p class="footer__copywrite">
+				<a class="footer__copywrite-link" href="https://www.fiverr.com/skifff">
+					<span>Developed</span>
+					<img src="img/htmlacademy.webp" alt="skifff logotype" width="27" height="34">
+				</a>
+			</p>
+		</div>
+		
+	</footer>
+	<script>
+		var navMain = document.querySelector('.main-nav');
+		var navToggle = document.querySelector('.main-nav__toggle');
+		var headerWrapper = document.querySelector('.page-header__wrapper');
+		var headerWrap = document.querySelector('.page-header__wrap');
+
+		navMain.classList.remove('main-nav--nojs');
+
+		navToggle.addEventListener('click', function() {
+			if (navMain.classList.contains('main-nav--closed')) {
+				navMain.classList.remove('main-nav--closed');
+				navMain.classList.add('main-nav--opened');
+				
+				headerWrapper.classList.add('page-header__wrapper--opened');
+				headerWrap.classList.add('page-header__wrap--opened');
+			} else {
+				navMain.classList.add('main-nav--closed');
+				navMain.classList.remove('main-nav--opened');
+				headerWrapper.classList.remove('page-header__wrapper--opened');
+				headerWrap.classList.remove('page-header__wrap--opened');
+			}
+		});
+	</script>
+</body>
+</html>
